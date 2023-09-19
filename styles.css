@@ -1,0 +1,18 @@
+.homepage{
+    color:orange;
+}
+
+.interestsList, .books{
+    background-color: rgb(87, 117, 107);
+
+}
+
+.books{
+    height: 300px;
+    width: 300px;
+}
+
+.interestsList li{
+    padding: 5px;
+    background-color:darkseagreen;
+}
