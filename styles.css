@@ -2,10 +2,6 @@
     color:orange;
 }
 
-.interestsList, .books{
-    background-color: rgb(87, 117, 107);
-
-}
 
 .books{
     height: 300px;
@@ -14,5 +10,26 @@
 
 .interestsList li{
     padding: 5px;
-    background-color:darkseagreen;
 }
+
+p {
+    margin-right: 1400px;
+  }
+
+  div {
+    margin-right: 150px;
+  }
+
+  .drivingInfo{
+    margin-right: 300px;
+  }
+
+  li{
+    font-size: medium;
+  }
+  table{
+    width:50%;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
