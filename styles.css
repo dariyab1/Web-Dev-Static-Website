@@ -1,6 +1,3 @@
-.homepage{
-    color:orange;
-}
 
 
 .books{
@@ -12,24 +9,27 @@
     padding: 5px;
 }
 
-p {
-    margin-right: 1400px;
-  }
+img{
+  height: 300px;
+  width: 300px;
+}
 
-  div {
-    margin-right: 150px;
-  }
 
-  .drivingInfo{
-    margin-right: 300px;
-  }
+.drivingInfo{
+  margin-right: 300px;
+}
 
-  li{
-    font-size: medium;
-  }
-  table{
-    width:50%;
-  }
-  table, th, td {
-    border: 1px solid black;
-  }
+li{
+  font-size: medium;
+}
+table{
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
