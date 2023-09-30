@@ -30,6 +30,7 @@ li{
 }
 
 table{
+  table-layout: fixed;
   width:100%;
 }
 
@@ -39,7 +40,7 @@ table, th, td {
 
 *{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
+ font-size: large;
 }
 
 .pageInfo{
@@ -80,4 +81,27 @@ body{
 
 .tableHeader{
   background-color: #4a6fa5;
+}
+
+h2{
+  font-size: x-large;
+}
+
+#name{
+  font-size: x-large;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video{
+  width: 400px;
+  height: 300px;
+}
+
+#note{
+  font-size: small;
 }

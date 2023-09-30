@@ -15,29 +15,45 @@
         <a ref="skills">Skills</a>
         <a href="spots.html">Spots</a>
     </div>
+    <section class="pageInfo">
+    <h2>Skills</h2>
     <ul id="interestsList"> 
-        <li>Driving</li>
-        <div>I starting learning how to drive when I was 13 in the parking lot of Rockaway Beach, and then I got my permit when I turned 16.  I am trying to find the time to get my permit </div>
-        <li>Snowboarding</li>
+        <li><h3>Driving</h3></li>
+        <div>I starting learning how to drive when I was 13 in the parking lot of Rockaway Beach, and then I got my permit when I turned 16. </div>
+        <li><h3>Snowboarding</h3></li>
+        <div>I learned how to ski when I was younger and then I learned how to snowboard last year.  My knees were busted the next day but it was fun.  I also learned how to waterski and wakeboard, which I think is cool because I can go on both snow and water in skiis and a board.<br>
+          <video src="snowboard tutorial.mp4" controls>
+            <p>
+              Your browser doesn't support HTML video. Here is a
+              <a href="snowboard tutorial.mp4">link to the video</a> instead.
+            </p>
+          </video>
+        </div>
+        <li><h3>Crochet/Bracelets</h3></li>
+        <p>Every couple of months I remember that I can make bracelets and crochet, though the latter not very well.  I made a strawberry cow bracelet before and I am most proud of that work.</p>
+        <li><h3>Procrastination</h3></li>
+        <p>This is one of my skills because I always push everything till the last minute, but always manage to get it done ~like this project~.  I guess this just means I know my limits.</p>
             
     </ul>
-    <form action="/my-handling-form-page" method="post">
-        <ul>
-          <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" />
-          </li>
-          <li>
-            <label for="mail">Email:</label>
-            <input type="email" id="mail" name="user_email" />
-          </li>
-          <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </li>
-        </ul>
+
+    <div></div>
+
+    <form action="feedback.txt" method="">
+        
+          
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name" />
+      <br>
+      <label for="msg">Question/Suggestion:</label>
+      <textarea id="msg" name="user_message"></textarea>
       </form>
-    
+      <footer>
+      <p id="note">Please leave any comments and questions here.</p>
+      </footer>
+      <p class="button"></p>
+      <button type="submit">Send your message</button>
+    <!-- The form is not linked to any server and I don't know how to create a file that collects responses.-->
+  </section>
 </body>
 </html>
 
