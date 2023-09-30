@@ -1,11 +1,11 @@
 
 
-.books{
+#books{
     height: 300px;
     width: 300px;
 }
 
-.interestsList li{
+#interestsList li{
     padding: 5px;
 }
 
@@ -15,21 +15,58 @@ img{
 }
 
 
-.drivingInfo{
+
+#drivingInfo{
   margin-right: 300px;
 }
 
 li{
   font-size: medium;
 }
+
 table{
   width:100%;
 }
+
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid #4f6d7a;
 }
 
 *{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.topnav {
+  background-color: #166088;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #B2C8D1;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+body{
+  background-color: #dbe9ee;
+}
+
+.tableHeader{
+  background-color: #4a6fa5;
+}
